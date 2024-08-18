@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    box-shadow: 2px 5px 0px rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+main{
+    flex: 1 0 auto;
+}
+#hero-section{
+    background-image: url("../assests/images/architect.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#br-word{
+     background-color:rgba(0, 0,0, 0.7);
+}
+#about-section{
+    filter: grayscale(0.5);
+}
+input{
+    width: 100%;
+}
